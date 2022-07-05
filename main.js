@@ -37,7 +37,9 @@ png_quality:200
 function take_snapshot(){
  Webcam.snap(function(data_uri)
  {
-document.getElementById("result").innerHTML='<img id="pictuer"src="'+data_uri+'">';
+document.getElementById("result_1").innerHTML='<img id="pictuer_1"src="'+data_uri+'">';
+document.getElementById("result_2").innerHTML='<img id="pictuer_2"src="'+data_uri+'">';
+document.getElementById("result_3").innerHTML='<img id="pictue_3r"src="'+data_uri+'">';
  }
  );
 }
